@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recette - AI-Powered Meal Planning</title>
+    <!-- 
+      HOW TO USE THIS:
+      1. Create a new public repository on GitHub (e.g., "recette-landing-page").
+      2. Upload this file to that repository and name it "index.html".
+      3. In the repository's settings, go to the "Pages" section.
+      4. Select the "main" branch as your source and click "Save".
+      5. After a minute, your page will be live at:
+         https://[your-github-username].github.io/recette-landing-page/
+    -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto max-w-3xl px-6 py-12 md:py-24">
+        
+        <!-- Header Section -->
+        <header class="text-center mb-12">
+            <h1 class="text-5xl md:text-6xl font-bold text-teal-600 mb-4">Recette</h1>
+            <p class="text-xl md:text-2xl text-gray-600">Smart meal planning for complex dietary needs.</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="bg-white rounded-lg shadow-xl p-8 md:p-12">
+
+            <!-- What is Recette? Section -->
+            <section class="mb-10">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">What is Recette?</h2>
+                <p class="text-lg text-gray-700 mb-4">
+                    Following a diet for a health condition (like heart disease, diabetes, or food allergies) is difficult. Often, you're juggling multiple, conflicting rules at once.
+                </p>
+                <p class="text-lg text-gray-700">
+                    Recette is an AI-powered mobile app designed to do the hard work for you. It helps you find, analyze, and plan meals that *actually* fit your unique and complex nutritional requirements, giving you confidence and control over your health.
+                </p>
+            </section>
+
+            <!-- Beta Signup Section -->
+            <section class="mb-10 text-center">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Join the Beta Test</h2>
+                <p class="text-lg text-gray-700 mb-6">
+                    We are currently looking for beta testers to help us refine the app. If you're interested in trying Recette and providing valuable feedback, please sign up!
+                </p>
+                <a href="[YOUR_GOOGLE_FORM_LINK_HERE]" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="inline-block bg-teal-600 text-white text-xl font-bold py-4 px-10 rounded-lg shadow-lg hover:bg-teal-700 transition-colors duration-300">
+                    Sign Up for the Beta
+                </a>
+                <p class="text-sm text-gray-500 mt-4">You'll be directed to a short Google Form.</p>
+            </section>
+
+            <!-- Roadmap Section -->
+            <section>
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center">Planned Features</h2>
+                <ul class="space-y-4">
+                    <li class="flex items-start p-4 bg-gray-50 rounded-lg">
+                        <svg class="w-6 h-6 text-teal-600 mr-4 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <span class="text-lg text-gray-700">**AI-Powered Recipe Analysis:** Instantly analyze any recipe for compliance with multiple dietary profiles (e.g., low-sodium, low-fat, and diabetic-friendly at the same time).</span>
+                    </li>
+                    <li class="flex items-start p-4 bg-gray-50 rounded-lg">
+                        <svg class="w-6 h-6 text-teal-600 mr-4 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <span class="text-lg text-gray-700">**Smart Recipe Search:** Find recipes from across the web that are pre-filtered to match your specific health needs.</span>
+                    </li>
+                    <li class="flex items-start p-4 bg-gray-50 rounded-lg">
+                        <svg class="w-6 h-6 text-teal-600 mr-4 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <span class="text-lg text-gray-700">**Meal Planning & Grocery Lists:** Easily build weekly meal plans and generate corresponding grocery lists.</span>
+                    </li>
+                    <li class="flex items-start p-4 bg-gray-50 rounded-lg">
+                        <svg class="w-6 h-6 text-teal-600 mr-4 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        <span class="text-lg text-gray-700">**Recipe Scanning (OCR):** Take a photo of a recipe from a book or magazine, and Recette will digitize and analyze it for you.</span>
+                    </li>
+                </ul>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center mt-12">
+            <p class="text-gray-500">&copy; 2025 Matthew Wegner. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
